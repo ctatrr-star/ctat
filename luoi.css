@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+   body {
+    background: linear-gradient(to bottom, #d4c7e1, #be8cee,#9153ca, #490f81) !important; 
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #3b2350;
+    font-family: 'Arima';
+    
+}
+.tieude{
+    font-family: 'arima';
+    text-align: center;
+    color: rgb(66, 7, 66);
+    font-weight: bold;
+}
+
+.container{
+    
+    max-width:1228px;
+    row-gap: 20px;
+    column-gap: 20px;
+    text-align : center;
+    width: 100%;
+    gap: 30px;
+    margin: 0 auto;
+    align-items: center;
+}
+.row{
+justify-content: center;
+}
+
+.boxsp {
+     background-color: rgba(156, 65, 154, 0.562);
+    height: 420px;           
+    width: 100%;
+     padding: 0px;margin: 20px;
+     border-radius: 10px;
+          display: flex;
+     border-radius: 12px;
+     grid-template-rows: 550px;
+     align-self: center;
+   
+
+}
+
+.box-anhsp{
+   display: flex;
+    
+    align-items: center;
+    justify-content: flex-start;
+    height: 250px;     
+    width:300px;     
+    border-radius: 20px;
+    padding: 10px 34px;
+    object-fit: cover;
+    border-radius: 16px;
+    object-position: center;
+
+}
+
+
+
+.tensp{
+  
+    font-family: 'arima';
+    color: rgb(87, 34, 117);
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.giasp {
+    color: #fff;
+    margin-top: 5px;
+    font-size: 35px;
+}
+.btn-xemthem {
+     background: linear-gradient(45deg, #9922b1, #32134f);
+    box-shadow: 0 8px 20px rgba(91, 19, 115, 0.5);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1,1em;
+    cursor: pointer;
+    margin-top: 30px;
+   
+}
+
+.btn-xemthem a{
+    color: white; 
+    text-decoration: none ;
+    
+}
+.btn-xemthem a:hover{
+    list-style: none !important;
+    text-decoration: none !important;
+    
+}
+
+.btn-xemthem-sp {
+    background: linear-gradient(45deg, #9922b1, #32134f);
+    box-shadow: 0 8px 20px rgba(91, 19, 115, 0.5);
+    color: white;
+    border: none;
+    padding: 8px 100px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+    font-size: inherit;
+    text-decoration: none;
+    list-style: none;
+    margin: 50px auto 20px;
+display: block;
+width: fit-content;
+}
+.btn-xemthem-sp a{
+    color: white; 
+    text-decoration: none ;
+    
+}
+.btn-xemthem-sp a:hover{
+    list-style: none !important;
+    text-decoration: none !important;
+    
+}
+
+.boxsp:hover {
+
+  box-shadow: 0 10px 20px rgb(64, 4, 34);
+  background-color: #49226a;
+    transform: translateY(-12px) scale(1.03);
+   
+    z-index: 10;
+}
+.boxsp p :hover {
+     color:#fff;
+    font-weight: bold;
+}
+
+
+
+
+.boxsp:hover .tensp, .boxsp:hover .giasp { color:#fff ; font-weight:bold; }
+.boxsp a {
+    text-decoration: none;
+    
+}
+
+.page { min-height: 100vh; padding: 20px 0; }
+.page:target { display: block ; }

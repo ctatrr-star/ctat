@@ -1,0 +1,135 @@
+.about {
+    width: 90%;
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 40px;
+}
+
+.about h2 {
+    font-family: 'Arima', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    color: #623481;
+    margin-bottom: 25px;
+}
+
+.about p {
+    font-family: 'Cormorant Upright', sans-serif; 
+    font-size: 30px;
+    color: #faf3ff;
+    line-height: 1.8;
+    font-weight: weight;
+    margin-bottom: 10px;
+    letter-spacing: -4%;
+    line-height: 100%;
+    font-style: italic;
+}
+
+.about::before { 
+content: "";
+  display: block;
+  width: 500px;     
+  height: 1px;
+  background: #57178c;
+  padding-bottom: 8px;
+align-self: center;
+margin: 0 auto 30px auto;
+
+}
+.contact{
+    margin: 100px auto;
+    border-top: 3px soid rgba(252, 244, 244, 0.662);
+    text-align: center;
+}
+.contact h2 {
+    font-family: 'Arima', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1b062e;
+    margin-bottom: 25px;
+    
+}
+.contact::before { 
+content: "";
+  display: block;
+  width: 500px;     
+  height: 1px;
+  background: #ffffff;
+  padding-bottom: 8px;
+align-self: center;
+margin: 0 auto 30px auto;
+}
+
+.contact p {
+    font-family: 'Cormorant Upright', sans-serif; /* ← FONT MỚI */
+    font-size: 30px;
+    color: #d8ccdb;
+    line-height: 1.8;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    letter-spacing: -4%;
+    line-height: 100%;
+}
+
+.form-dk {
+  width: 450px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #fefefecb;
+  border-radius: 12px;
+}
+
+.form-dk input, .form-dk button {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.form-dk button {
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+    align-items: center;  
+ margin: 0;
+}
+
+.imageft{
+     box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    border-radius: 30px;
+     overflow: hidden;
+      align-items: center;
+   margin: 0 auto;
+     width: fit-content;
+     display: block;
+}
+
+.imageft img {
+  
+  width:auto;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+.imagebn{
+     box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    border-radius: 30px;
+     overflow: hidden;
+      align-items: center;
+   margin: 0 auto;
+     display: block;
+     margin: 70px;
+}
+.imagebn img {  
+  width:70%;
+  height: 255px;
+  object-fit: cover;
+  width: 100%;
+}
